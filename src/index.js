@@ -972,7 +972,7 @@ class Magnet {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['water'],
       web: []
     };
     
@@ -988,19 +988,19 @@ class Magnet {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['fire'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['mouth'];
           break;
       }
     }
@@ -1012,7 +1012,7 @@ class Magnet {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['twenty'],
       web: []
     };
     
@@ -1028,11 +1028,11 @@ class Magnet {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['fire'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
       }
     }
